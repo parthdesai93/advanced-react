@@ -1,6 +1,8 @@
-import Link from 'next/link';
+import Items from '../components/Items';
 
-const Hello = props => {
-  return <div>HEY!!!</div>;
-};
+const Hello = props => (
+  <div>
+    <Items />
+  </div>
+);
 export default Hello;

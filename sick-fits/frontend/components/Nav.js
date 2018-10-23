@@ -4,19 +4,19 @@ import NavStyled from './styles/NavStyles';
 const Nav = props => (
   <NavStyled>
     <Link href="/items">
-      <a> items</a>
+      <a> Shop</a>
     </Link>
     <Link href="/sell">
-      <a> sell</a>
+      <a> Sell</a>
     </Link>
     <Link href="/signup">
-      <a> signup</a>
+      <a> Signup</a>
     </Link>
     <Link href="/orders">
-      <a> orders</a>
+      <a> Orders</a>
     </Link>
     <Link href="/me">
-      <a> Accounte</a>
+      <a> Account</a>
     </Link>
   </NavStyled>
 );
