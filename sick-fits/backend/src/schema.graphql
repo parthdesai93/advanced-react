@@ -6,7 +6,7 @@ type Mutation {
     description: String
     price: Int
     image: String
-    largeItem: String
+    largeImage: String
   ): Item!
 }
 
