@@ -7,6 +7,18 @@ const mutations = {
       info
     );
     return item;
+  },
+  updateItem(parent, args, ctx, info) {
+    const {id, ...updates} = args;
+    return ctx.db.mutation.updateItem(
+      {
+        data: updates,
+        where: {
+          id: args.id
+        }
+      },
+      info
+    );
   }
 };
 

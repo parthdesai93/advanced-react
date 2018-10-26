@@ -4,7 +4,8 @@ const Query = {
   // const item = await ctx.db.query.items();
   // return item;
   //}
-  items: forwardTo('db')
+  items: forwardTo('db'),
+  item: forwardTo('db')
 };
 
 module.exports = Query;
